@@ -1,0 +1,30 @@
+<app-menu></app-menu>
+<app-btnprincipales></app-btnprincipales>
+
+<div> <h5>Hacer parte de nuestra comunidad tiene grandes <br> beneficios, regístrate y obtén los mejores descuentos
+</h5></div>
+
+<div id="login">
+    <div class="form-group">
+      <label for="exampleInputPassword1">Nombre y apellido</label>
+      <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Fecha de nacimiento</label>
+      <input type="date" class="form-control" id="fecha">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Correo Electronico</label>
+      <input type="text" class="form-control" id="email" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Contraseña</label>
+      <input type="password" class="form-control" id="password" [(ngModel)]="password">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="registrar()">Registrar</button>
+</div>
+
+<div id="aun"><h5>¿Ya estas registrado?</h5></div>
+<div id="aun"><a class="nav-link" routerLink="/login">REGÍSTRATE</a></div>
+
+<app-footer></app-footer>

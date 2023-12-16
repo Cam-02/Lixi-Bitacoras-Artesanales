@@ -1,0 +1,20 @@
+<div id="menulateral">
+    <div id="datosus">
+        <img src="" id="miavatar">
+        <div id="nameuser">{{nombre}}</div>
+        <div id="rol"> 
+            <span *ngIf="rol == '1' ">Administrador</span>
+            <span *ngIf="rol == '2' ">Cliente</span>
+        </div>
+    </div>
+    
+    <div id="menu">
+        <div class="itemmenu" routerLink="/dashboard">DASHBOARD</div>
+        <div class="itemmenu" routerLink="/usuarios">USUARIOS</div>
+        <div class="itemmenu">enlace</div>
+        <div class="itemmenu">enlace</div>
+        <div class="itemmenu">enlace</div>
+        <div class="itemmenu" (click)="Logout()">Cerrar sesion</div>
+    </div>
+
+</div>

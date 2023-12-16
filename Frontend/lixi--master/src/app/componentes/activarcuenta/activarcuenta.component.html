@@ -1,0 +1,19 @@
+<app-menu></app-menu>
+
+<div id="activarcuenta">
+    
+    
+    <div class="form-group">
+      <label for="email">Correo Electronico</label>
+      <input type="text" class="form-control" id="email" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="codigo">Codigo</label>
+      <input type="text" class="form-control" id="codigo" [(ngModel)]="codigo">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="Activar()">Activar cuenta</button>
+</div>
+
+
+
+<app-footer></app-footer>

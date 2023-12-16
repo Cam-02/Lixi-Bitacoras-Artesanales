@@ -1,0 +1,15 @@
+#login{
+    margin-top: 64px;
+    background-color: gainsboro;
+    width: 375px;
+    padding: 29px;
+    border-radius: 13px;
+    margin-left: calc(50% - 180px);
+
+}
+#aun{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center
+}

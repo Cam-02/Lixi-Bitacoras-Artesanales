@@ -1,0 +1,52 @@
+
+/*div#menulateral{
+    background: antiquewhite;
+    width: 170px;
+    height: calc(100vh-40px);
+    float: left;
+}*/
+img#miavatar{
+    width: 100px;
+    border-radius: 50%;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;  
+
+}
+
+    div#nameuser{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+
+}
+
+div#rol
+{
+width: 100%;
+text-align: center;
+color: rgb(139, 85, 196);
+font-weight: 600;
+font-style: italic;
+}
+
+div#menu{
+    margin-top: 15;
+}
+
+.itemmenu{
+    color: rgb(139, 85, 196);
+    font-weight: 500;
+    font-style: italic;
+    padding-left: 1px;
+    margin-bottom: 11px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.itemmenu:hoverr{
+    padding-left: 20px;
+    color: rgb(122, 116, 106);
+}

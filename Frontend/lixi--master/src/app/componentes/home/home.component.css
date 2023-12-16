@@ -1,0 +1,116 @@
+
+#home{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+}
+#bitacoraHome{
+    width: 320px;
+    padding-top: 64px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+}
+#gotas{
+    position: absolute;
+    width: 100%;
+    height: 132%;
+}
+#crea{
+    padding-top: 75px;
+    padding-left: 80px;
+}
+.titulos{
+    color: white;
+    font-weight: 600;
+    text-shadow:#212529 3px 0px 1px;
+    
+ }
+ #eres{
+    color: white;
+ }
+ 
+
+ @media screen and (max-width: 720px) {
+    #crea{
+        padding-top: 64px;
+        padding-left: 46px;
+        padding-right: 35px;
+    }
+  }
+.botones{
+    color: #212529;
+    background-color: #e9ecef;
+    margin-top: 35px;
+}
+
+#descubre{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+.carousel {
+    position: relative;
+    width: 65%;
+    margin: auto;
+}
+#carrusel1{
+    padding-top: 5%;
+    opacity: 60%;
+    margin-left: 45px;
+
+}
+#carrusel2{
+    padding-top: 5%;
+    opacity: 60%;
+    margin-left: -45px;
+}
+#diseño{
+    width: 120%;
+}
+
+@media screen and (max-width: 720px) {
+    #carrusel1{
+        position: absolute;
+        top: -9999px;
+    }
+    #carrusel2{
+        position: absolute;
+        top: -9999px;
+    }
+
+  }
+#conoce{
+    display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}  
+
+#libros{
+    width: 94%;
+    margin-top: 33px;
+    margin-left: -79px;
+}
+#formatos{
+    position: relative;
+    background-image: url("/assets/images/mancha-09.png");
+    background-size: 125%;
+    width: 117%;
+    left: -134px;
+}
+.row{
+    margin: 0;
+}
+#papeles{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}

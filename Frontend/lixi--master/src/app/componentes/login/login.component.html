@@ -1,0 +1,21 @@
+<app-menu></app-menu>
+<app-btnprincipales></app-btnprincipales>
+
+<div id="login">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Correo</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Contraseña</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="password">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="iniciarsesion()">Entrar</button>
+</div>
+
+<div id="aun"><h5>¿Aún no te haz registrado?</h5></div>
+<div id="aun"><a class="nav-link" routerLink="/registro">REGISTRATE</a></div>
+
+
+
+<app-footer></app-footer>

@@ -1,0 +1,13 @@
+#btnprincipales{
+    float: left;
+    position: fixed;
+    width: 200px;
+    top: 185px;
+    left: -39px;
+    z-index: 1;
+}
+#botonesprinci{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0,0,0,0);
+    margin-top: 10px;
+}

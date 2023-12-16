@@ -1,0 +1,18 @@
+#login{
+    margin-top: 40px;
+    background-color: gainsboro;
+    width: 375px;
+    padding: 29px;
+    border-radius: 13px;
+    margin-left: calc(50% - 180px);
+
+}
+div#activarcuenta{
+    background-color: rgb(167, 155, 180);
+    width: 375px;
+    margin-left: calc(50% - 100px);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}

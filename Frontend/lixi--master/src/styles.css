@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image:url("/assets/images/fondo_2.\ inicio\ copia.jpg");
+    background-size: 60%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#tituloventana{
+    width: calc(100% - 85);
+    right: 0px;
+    position: absolute;
+    margin-top: 2px;
+}
+
+div#areadetrabajo{
+   /* background-color: rgb(114, 114, 114);*/
+    width: calc(100%-46px);
+    height: calc(100v  - 98px);
+    margin-top:  56px;
+    right: 9px;
+    position: relative;
+}
